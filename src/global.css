@@ -1,0 +1,29 @@
+@import url("tailwindcss/base");
+@import url("tailwindcss/components");
+@import url("tailwindcss/utilities");
+
+
+@font-face {
+    font-family: 'emirates';
+    src: url(/assets/font/emirates/emirate_regular.woff) format('woff');
+    font-weight: light;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'emirates';
+    src: url(/assets/font/emirates/emirate_bold.woff) format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+
+  ::-webkit-scrollbar {
+    width: 0.5vh;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 3px;
+  }
